@@ -1,0 +1,352 @@
+:root{
+
+    --font-style: 'New Times Roman', sans-serif;
+
+    --btn-color: #62b3e2;
+
+    --btn-hover: #648aa3;
+
+    --secondary-color: rgba(46, 45, 45, 0.877) ;
+
+
+}
+
+nav .links{
+
+    text-decoration: none;
+
+    color: #3a769e;
+
+}
+
+nav .links:hover{
+
+   color: #459ee7;
+
+}
+
+table,td,tr{
+
+    border: 1px solid #648aa3;
+
+    text-align: left;
+
+}
+
+table{
+
+    border-collapse: collapse;
+
+    width:100%;
+
+}
+
+th,td{
+
+    padding:15px;
+
+}
+
+tr{  
+
+    background-color: var(var(--btn-hover));
+
+}
+
+
+a{
+
+    color: purple;
+
+    text-decoration: underline;
+
+    background-color: yellow;
+
+}
+
+a{
+
+    color: blue;
+
+}
+
+*{
+
+    padding: 0;
+
+    margin: 0;
+
+    box-sizing: border-box;
+
+}
+
+h1, h2, h3, h4, h5, h6{
+
+    font-family: var(--font-style) !important;
+
+    font-weight: 100 i !important;
+
+}
+
+
+
+ 
+
+  /* Track */
+
+  ::-webkit-scrollbar-track {
+
+    background: #2568a7;
+
+  }
+
+   
+
+  /* Handle */
+
+  ::-webkit-scrollbar-thumb {
+
+    background: rgb(171, 215, 223);
+
+  }
+
+ 
+
+  /* Handle on hover */
+
+  ::-webkit-scrollbar-thumb:hover {
+
+    background: rgb(203, 204, 204);
+
+  }
+
+
+
+.section-heading{
+
+    text-align: center;
+
+    display: block;
+
+    width: auto;
+
+    font-family: var(sans-serif);
+
+    font-weight: bold;
+
+    margin-bottom: 30px;
+
+    color: var(--secondary-color);
+
+}
+
+.section-para{
+
+    text-align: center;
+
+    margin: 0px auto 0px auto;
+
+    width: 600px;
+
+    font-family: var(sans-serif);
+
+    color: var(#62b3e2);
+
+}
+
+nav{
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    border-bottom: 1px solid rgba(70, 181, 214, 0.637);
+
+    padding: 0px 10px;
+
+    font-family: var(sans-serif);
+
+}
+
+
+.explore-row .box .box-heading:hover{
+
+    background-color: var(--btn-hover);
+
+}
+
+.explore-row .explore-img{
+
+    width: 250px !important;
+
+    display: block;
+
+    text-align: center;
+
+    padding: 10px;
+
+    margin: 0 auto;
+
+}
+
+@media(max-width: 868px){
+
+    .explore-row{
+
+        display: grid;
+
+        grid-template-columns: 1fr;
+
+        grid-template-rows: repeat(3, auto);
+
+        grid-row-gap: 15px;
+
+    }
+
+}
+
+
+
+footer{
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 12px 25px;
+
+    border-top: 0.5px solid rgba(0, 0, 0, 0.061);
+
+    font-family: var(arial);
+
+    color: #fff;
+
+    background-color: rgb(48, 45, 45);
+
+}
+
+footer i{
+
+    font-size: 2rem;
+
+    color: #fff;
+
+}
+
+
+
+@media only screen and (max-width: 992px){
+
+    .hero-container{
+
+        display: grid;
+
+        grid-template-columns: 1fr;
+
+        grid-template-rows: auto auto;
+
+    }
+
+    .hero-container .hero-content{
+
+        padding-top: 40px !important;
+
+    }
+
+   
+
+
+
+    .about-row{
+
+        display: grid;
+
+        grid-template-columns: repeat(1, 1fr);
+
+        grid-template-rows: repeat(3, auto);
+
+        grid-row-gap: 15px;
+
+        justify-content: center;
+
+        text-align: center;
+
+    }
+
+    .section-para{
+
+        text-align: center;
+
+        margin: 30px auto 20px auto;
+
+        width: 600px;
+
+        max-width: 100%;
+
+        font-family: var(--font-style);
+
+        color: var(--secondary-color);
+
+        padding: 0 15px;
+
+    }
+}
+h2{
+    background-color:deepskyblue;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    color: palegreen;
+}
+body{
+    background-color: cadetblue;
+}
+td{
+    background-color: palegoldenrod;
+}
+h1{
+    background-color: plum;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+    color: palegreen;
+}
+h3:hover{
+    color: palevioletred;
+}
+h3{
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+}
+span{
+    color: palevioletred;
+    font-size: large;
+    font-weight: bold;
+}
+p{
+    color:darkorchid;
+    font-family: 'Oswald', sans-serif;
+    font-size: large;
+    font-weight: bold;
+}
+a{
+    font-size: large;
+    font-weight: bold;
+}
+strong{
+    font-family: 'Oswald', sans-serif;
+    color: dodgerblue;
+}
+font{
+    font-family: 'Oswald', sans-serif;
+    color: dodgerblue;
+    font-weight: bold;
+}
+span{
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+}
